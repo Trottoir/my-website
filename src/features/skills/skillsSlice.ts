@@ -54,8 +54,6 @@ export const skillsSlice = createSlice({
   },
 })
 
-// Action creators are generated for each case reducer function
-export const {  } = skillsSlice.actions
 
 
 export default skillsSlice.reducer
