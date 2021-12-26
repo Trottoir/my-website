@@ -1,0 +1,22 @@
+.skills {
+	z-index: 20;
+	margin-top: 200px;
+}
+.whiteRound {
+	background-color: gray;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+}
+.skillImage {
+	height: 95%;
+	width: 95%;
+}
+
+.skillCategoryTitle {
+	font-size: 3rem;
+}
+.skillCardContent {
+	text-align: center;
+}
