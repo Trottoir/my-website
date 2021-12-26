@@ -1,0 +1,67 @@
+.tsparticles-canvas-el {
+	height: 70vh !important;
+	position: absolute !important;
+}
+
+.container * {
+	z-index: 1;
+}
+
+.container {
+	height: 70vh;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+.myName {
+	width: 100%;
+	z-index: 1;
+	font-size: 5vw;
+	margin: 0;
+}
+
+.myPhrase {
+	width: 100%;
+	font-size: 1.5em;
+	z-index: 1;
+}
+
+.myPhoto {
+	height: 10em;
+	border-radius: 50%;
+}
+
+.blocks {
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-width: 640px) {
+	.myName {
+		font-size: 10vw;
+	}
+
+	.myPhrase {
+		font-size: 1em;
+	}
+}
+
+.typing-demo {
+	animation: typing 2.2s steps(22), blink 0.3s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
