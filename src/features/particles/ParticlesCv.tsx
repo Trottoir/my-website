@@ -2,7 +2,6 @@ import Particles from 'react-tsparticles';
 import './ParticlesCv.css';
 
 import { particlesConfig } from './particlesConfig';
-import { Skills } from '../skills/Skills';
 
 export function ParticlesCv() {
 	const particlesInit = (main: any) => {

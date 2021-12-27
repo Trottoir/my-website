@@ -1,17 +1,7 @@
-import { Computer } from '@mui/icons-material';
-import { Box, Card, CardContent, Grid, Rating, styled } from '@mui/material';
+import { Grid } from '@mui/material';
 import { useAppSelector } from '../../app/hooks';
 import { Skill } from '../../models/Skill.interface';
 import './Skills.css';
-
-const StyledRating = styled(Rating)({
-	'& .MuiRating-iconFilled': {
-		color: '#000000',
-	},
-	'& .MuiRating-iconHover': {
-		color: '#ff3d47',
-	},
-});
 
 export function Skills() {
 	const backEndSkills = useAppSelector((state) => state.skills.backSkills);
