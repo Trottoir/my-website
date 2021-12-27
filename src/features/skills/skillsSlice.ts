@@ -73,7 +73,4 @@ export const skillsSlice = createSlice({
 
   },
 })
-
-
-
 export default skillsSlice.reducer
