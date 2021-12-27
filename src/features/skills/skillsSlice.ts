@@ -25,6 +25,11 @@ const initialSkillsState : SkillsState= {
                 name:"VueJS",
                 logoUrl:'./logo_technos/vuejs_logo_black.png',
                 skillCap: 3.75
+            },
+            {
+                name:"HTML/CSS",
+                logoUrl:'./logo_technos/html_css_logo_black.png',
+                skillCap: 3.75
             }
         ],
         backSkills: [
@@ -41,6 +46,21 @@ const initialSkillsState : SkillsState= {
             {
                 name:"NodeJS",
                 logoUrl:'./logo_technos/nodeJs.png',
+                skillCap:7.5
+            },
+            {
+                name:"Solidity",
+                logoUrl:'./logo_technos/solidity_logo.png',
+                skillCap:7.5
+            },
+            {
+                name:"Oracle Database",
+                logoUrl:'./logo_technos/oracle.png',
+                skillCap:7.5
+            },
+            {
+                name:"PostgreSQL",
+                logoUrl:'./logo_technos/pgSql.png',
                 skillCap:7.5
             }
         ],

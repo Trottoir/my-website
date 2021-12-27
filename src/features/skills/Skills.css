@@ -3,15 +3,15 @@
 	margin-top: 200px;
 }
 .whiteRound {
-	background-color: gray;
+	background-color: white;
 	border-radius: 50%;
 	height: 100px;
 	width: 100px;
 	margin: auto;
 }
 .skillImage {
-	height: 95%;
-	width: 95%;
+	height: 100%;
+	width: 100%;
 }
 
 .skillCategoryTitle {

@@ -16,7 +16,7 @@ export function ParticlesCv() {
 		<div>
 			<div className='container '>
 				<div className='blocks'>
-					<h1 className='myName  '>MAXIME RANCIERE</h1>
+					<h1 className='myName'>MAXIME RANCIERE</h1>
 
 					<h2 className='myPhrase typing-demo'>
 						The journey of a Web3 Full-Stack developer
